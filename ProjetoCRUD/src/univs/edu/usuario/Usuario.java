@@ -14,7 +14,7 @@ public class Usuario {
     private int idUsuario;
     
     @Column(length = 20, nullable = false)
-    private String loguin;
+    private String login;
     
     @Column(length = 20, nullable = false)
     private String senha;
@@ -34,17 +34,17 @@ public class Usuario {
     }
 
     /**
-     * @return the loguin
+     * @return the login
      */
-    public String getLoguin() {
-        return loguin;
+    public String getLogin() {
+        return login;
     }
 
     /**
-     * @param loguin the loguin to set
+     * @param login the login to set
      */
-    public void setLoguin(String loguin) {
-        this.loguin = loguin;
+    public void setLogin(String login) {
+        this.login = login;
     }
 
     /**
