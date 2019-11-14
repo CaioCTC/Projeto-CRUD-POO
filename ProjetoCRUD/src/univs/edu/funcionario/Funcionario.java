@@ -15,7 +15,7 @@ public class Funcionario {
     @GeneratedValue
     
     
-    private int indFuncionario;
+    private int idFuncionario;
     
     @Column(length = 100, nullable = false)
     private String nomeFuncionario;
@@ -31,19 +31,19 @@ public class Funcionario {
 
     @OneToOne
     private Usuario usuario;
-    
+
     /**
-     * @return the indFuncionario
+     * @return the idFuncionario
      */
-    public int getIndFuncionario() {
-        return indFuncionario;
+    public int getIdFuncionario() {
+        return idFuncionario;
     }
 
     /**
-     * @param indFuncionario the indFuncionario to set
+     * @param idFuncionario the idFuncionario to set
      */
-    public void setIndFuncionario(int indFuncionario) {
-        this.indFuncionario = indFuncionario;
+    public void setIdFuncionario(int idFuncionario) {
+        this.idFuncionario = idFuncionario;
     }
 
     /**
@@ -102,10 +102,6 @@ public class Funcionario {
         this.salario = salario;
     }
 
-    int getIdFuncionario() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
     /**
      * @return the usuario
      */
@@ -121,6 +117,6 @@ public class Funcionario {
     }
 
     /**
-     * @return the indFuncionario
+     * @return the idFuncionario
      */
 }
