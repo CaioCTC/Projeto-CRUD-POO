@@ -55,7 +55,7 @@ public class UsuarioDAO {
         return usuario;
     }
     
-     public Usuario autenticarUsuario(String login, String senha){
+    public Usuario autenticarUsuario(String login, String senha){
         sessao = HibernateUtil.
                 getSessionFactory().openSession();
         transacao = sessao.beginTransaction();

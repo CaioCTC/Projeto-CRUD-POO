@@ -1,6 +1,5 @@
 package univs.edu.funcionario;
 
-import univs.edu.usuario.*;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.table.AbstractTableModel;
